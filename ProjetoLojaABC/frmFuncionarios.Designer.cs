@@ -41,6 +41,10 @@ namespace ProjetoLojaABC
             this.gpbFuncionarios = new System.Windows.Forms.GroupBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
             this.pnlFuncionarios.SuspendLayout();
             this.gpbFuncionarios.SuspendLayout();
             this.SuspendLayout();
@@ -155,6 +159,10 @@ namespace ProjetoLojaABC
             // 
             // gpbFuncionarios
             // 
+            this.gpbFuncionarios.Controls.Add(this.label3);
+            this.gpbFuncionarios.Controls.Add(this.maskedTextBox3);
+            this.gpbFuncionarios.Controls.Add(this.label2);
+            this.gpbFuncionarios.Controls.Add(this.maskedTextBox2);
             this.gpbFuncionarios.Controls.Add(this.label1);
             this.gpbFuncionarios.Controls.Add(this.maskedTextBox1);
             this.gpbFuncionarios.Location = new System.Drawing.Point(63, 27);
@@ -167,7 +175,7 @@ namespace ProjetoLojaABC
             // maskedTextBox1
             // 
             this.maskedTextBox1.Location = new System.Drawing.Point(60, 162);
-            this.maskedTextBox1.Mask = "999.999.999-00";
+            this.maskedTextBox1.Mask = "999,999,999-00";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(231, 20);
             this.maskedTextBox1.TabIndex = 0;
@@ -180,6 +188,40 @@ namespace ProjetoLojaABC
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "label1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(80, 250);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "label2";
+            // 
+            // maskedTextBox2
+            // 
+            this.maskedTextBox2.Location = new System.Drawing.Point(126, 250);
+            this.maskedTextBox2.Mask = "999,999,999-00";
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(231, 20);
+            this.maskedTextBox2.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(170, 162);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "label3";
+            // 
+            // maskedTextBox3
+            // 
+            this.maskedTextBox3.Location = new System.Drawing.Point(216, 162);
+            this.maskedTextBox3.Mask = "999,999,999-00";
+            this.maskedTextBox3.Name = "maskedTextBox3";
+            this.maskedTextBox3.Size = new System.Drawing.Size(231, 20);
+            this.maskedTextBox3.TabIndex = 4;
             // 
             // frmFuncionarios
             // 
@@ -215,5 +257,9 @@ namespace ProjetoLojaABC
         private System.Windows.Forms.GroupBox gpbFuncionarios;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
     }
 }
